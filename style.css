@@ -20,11 +20,11 @@ h1
     background-color: rgb(48, 45, 45);
     
     flex-wrap: wrap;
-    max-height: 600px;
+   
     padding-left: 5%;
+   
     
-    
-
+    min-height: 50vh;
     font-family: 'Courier New', Courier, monospace;
    
 }
@@ -35,6 +35,7 @@ h1
     font-size: 3em;
     min-width: 350px;
     max-width: 600px;
+    max-height: 20vh;
 }
 
 .flex-container_lvl2
@@ -74,4 +75,10 @@ h1
 {
     display: flex;
     flex-direction: column;
+}
+
+
+.img-flex-item
+{
+    min-height: 50vh;
 }
